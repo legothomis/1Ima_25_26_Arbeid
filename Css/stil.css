@@ -1,16 +1,19 @@
  body {
-    background-image:url('bilder/cows.png');
+    background-image:url("../Bilder/Cows.png");
     background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
  } /*Setter bakgrunns bilde til cows.png, må alltid være definert og 
  referertriktig med navn og mappe, slik som dette bilder/Samburu.background.jpg. 
  Det er alltid  viktig å referere til riktig mappe, i dette tilfellet er mappen 
  bilder. Også riktig bilde type er noe å passe på, eksempler på dette er jpg og 
- png*/
+ png. Skriv ../ foran for å få til å se liste over mapper å referere til, dette brukte
+ du til å fikse flere problemer*/
 
  
  h1{
 font-size: 68px;
 color:brown;
-text-align: center;}
+text-align: center;
+background-color:rgb(73, 45, 2);
+height: 120px;
+margin: 0;
+border: 0px;}
