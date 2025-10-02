@@ -1,9 +1,9 @@
  body {
-    background-image: url('Bilder/Cows.png');
+    background-image:url('bilder/cows.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
- } /*Setter bakgrunns bilde til Samburu.background, må alltid være definert og 
+ } /*Setter bakgrunns bilde til cows.png, må alltid være definert og 
  referertriktig med navn og mappe, slik som dette bilder/Samburu.background.jpg. 
  Det er alltid  viktig å referere til riktig mappe, i dette tilfellet er mappen 
  bilder. Også riktig bilde type er noe å passe på, eksempler på dette er jpg og 
