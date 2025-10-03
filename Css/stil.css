@@ -14,6 +14,16 @@ font-size: 68px;
 color:brown;
 text-align: center;
 background-color:rgb(73, 45, 2);
+background-repeat: no-repeat;
+height: 120px;
+margin: 0;
+border: 0px;}
+
+a{font-size: 68px;
+color:rgb(2, 23, 161);
+text-align: center;
+background-color:rgb(73, 45, 2);
+background-repeat: no-repeat;
 height: 120px;
 margin: 0;
 border: 0px;}
