@@ -27,3 +27,25 @@ background-repeat: no-repeat;
 height: 120px;
 margin: 0;
 border: 0px;}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}  .mainpanel, .sidepanel{
+    border-style: dashed;
+    background-color:  rgb(130, 222, 228);
+    text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #37ff00;
+  padding: 10px;
+}  .mainpanel, .sidepanel{
+    border-style: dashed;
+    background-color:  rgb(130, 222, 228);
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+body {
+    background-image:url("../Bilder/Leopard.jpg");
+    background-size:cover;
+ }
+
+h1{
+font-size: 68px;
+color:rgb(232, 0, 220);
+text-align: center;
+background-color:rgb(73, 45, 2);
+height: 120px;
+margin: 0;
+border: 0px;}
