@@ -11,16 +11,16 @@
  
  h1{
 font-size: 68px;
-color:brown;
+color:rgb(255, 170, 0);
 text-align: center;
-background-color:rgb(73, 45, 2);
+background-color:rgb(255, 0, 0);
 background-repeat: no-repeat;
 height: 120px;
 margin: 0;
 border: 0px;}
 
 a{font-size: 68px;
-color:rgb(2, 23, 161);
+color:rgb(255, 234, 0);
 text-align: center;
 background-color:rgb(73, 45, 2);
 background-repeat: no-repeat;
@@ -33,11 +33,15 @@ border: 0px;}
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
-}  .mainpanel, .sidepanel{
+} 
+
+/* Dett er grid containers som lager grids*/
+.mainpanel, .sidepanel{
     border-style: dashed;
     background-color:  rgb(130, 222, 228);
     text-align: center;
-}
+} 
+
 .grid-container1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
