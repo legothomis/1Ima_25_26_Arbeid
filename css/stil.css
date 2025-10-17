@@ -1,0 +1,66 @@
+ body {
+    background-image:url("../Bilder/Cows.png");
+    background-size:cover;
+ } /*Setter bakgrunns bilde til cows.png, må alltid være definert og 
+ referertriktig med navn og mappe, slik som dette bilder/Samburu.background.jpg. 
+ Det er alltid  viktig å referere til riktig mappe, i dette tilfellet er mappen 
+ bilder. Også riktig bilde type er noe å passe på, eksempler på dette er jpg og 
+ png. Skriv ../ foran for å få til å se liste over mapper å referere til, dette brukte
+ du til å fikse flere problemer*/
+
+ 
+ h1{
+font-size: 68px;
+color:rgb(255, 170, 0);
+text-align: center;
+background-color:rgb(255, 0, 0);
+background-repeat: no-repeat;
+height: 120px;
+margin: 0;
+border: 0px;
+  rotate: 1 1 0 700deg;
+  }
+  a:hover {
+  background-color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+a{font-size: 68px;
+color:rgb(255, 234, 0);
+text-align: center;
+background-color:rgb(73, 45, 2);
+background-repeat: no-repeat;
+height: 120px;
+margin: 0;
+border: 0px;
+  rotate: 1 1 0 25deg;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  rotate: 1 1 0 60deg;
+} 
+
+/* Dett er grid containers som lager grids*/
+.mainpanel, .sidepanel{
+    border-style: dashed;
+    background-color:  rgb(130, 222, 228);
+    text-align: center;
+} 
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #37ff00;
+  padding: 10px;
+    rotate: 1 1 0 60deg;
+
+}  .mainpanel, .sidepanel{
+    border-style: dashed;
+    background-color:  rgb(130, 222, 228);
+    text-align: center;
+}
